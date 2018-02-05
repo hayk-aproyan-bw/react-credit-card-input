@@ -312,7 +312,6 @@ class CreditCardInput extends Component<Props, State> {
               pattern="[0-9]*"
               placeholder="Card number"
               type="text"
-              component="input"
               {...cardNumberInputProps}
               onBlur={this.handleCardNumberBlur}
               onChange={this.handleCardNumberChange}
@@ -329,7 +328,6 @@ class CreditCardInput extends Component<Props, State> {
               pattern="[0-9]*"
               placeholder="MM / YY"
               type="text"
-              component="input"
               {...cardExpiryInputProps}
               onBlur={this.handleCardExpiryBlur}
               onChange={this.handleCardExpiryChange}
@@ -347,7 +345,6 @@ class CreditCardInput extends Component<Props, State> {
               pattern="[0-9]*"
               placeholder="CVC"
               type="text"
-              component="input"
               {...cardCVCInputProps}
               onBlur={this.handleCVCBlur}
               onChange={this.handleCVCChange}
